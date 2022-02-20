@@ -1,9 +1,17 @@
 # AR Book Cover
-This project uses Unity and Vuforia to create an augmented reality book cover for *The Girl with the Dragon Tattoo* by Stieg Larson. The front cover augments a 3D dragon that is shooting fire, and the back cover toggles between misc. book information and a personal book review. 
+An augmented reality book cover for *The Girl with the Dragon Tattoo* by Stieg Larson. The front cover augments a 3D dragon that is shooting fire, and the back cover toggles between misc. book information and a personal book review. 
 
 ## Description of Code
+This project was made using Unity and Vuforia for a MacOS build. Elements of note:
+- **Scene objects** are located in `TheDragonTattoo > Assets > Scenes > BookScene`
+- **Animations** are located in `TheDragonTattoo > Assets > Animations`
+- The **script** used for the button element is `TheDragonTattoo > Assets > toggle`
+
+**Note:** The BookScene would be the best place to start for customizations.
+
 
 ## Code Limitations
+This code is meant for a MacOS with an intel64 chip. If using a different platform (e.g. Windows, Linus, iOS, Android, etc.) or processor (ARM), this build will not deploy.
 
 ## How to Run
 
