@@ -1,6 +1,11 @@
 # AR Book Cover
 An augmented reality book cover for *The Girl with the Dragon Tattoo* by Stieg Larson. The front cover augments a 3D dragon that is shooting fire, and the back cover toggles between misc. book information and a personal book review. 
 
+- An iOS demo is located at: `Deliverables/iOS_arBookCoverDemo.mp4.zip`
+- A unity demo is located at: `Deliverables/arBookCoverDemo.zip`
+
+
+
 ## Description of Code
 This project was made using Unity and Vuforia for an iOS > 12.0 build. The Unity code is too large to push to GitHub, but if interested, I can send your way. Code elements of note:
 - **Scene objects** are located in `TheDragonTattoo > Assets > Scenes > BookScene`
@@ -45,3 +50,8 @@ Directions to build (requires XCode):
 <p align="center">
 <img src="Deliverables/Back_Cover_View1.png" width="500" height="400">   <img src="Deliverables/Back_Cover_View2.png" width="500" height="400">
   </p>
+  
+ ### Contact info
+ (dot) = .
+ (at) = @
+ email: preston(dot)k(dot)robinette(at)vanderbilt(dot)edu
