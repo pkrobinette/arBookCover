@@ -53,5 +53,7 @@ Directions to build (requires XCode):
   
  ### Contact info
  (dot) = .
+ 
  (at) = @
- email: preston(dot)k(dot)robinette(at)vanderbilt(dot)edu
+ 
+ **email:** preston(dot)k(dot)robinette(at)vanderbilt(dot)edu
