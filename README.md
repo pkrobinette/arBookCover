@@ -21,16 +21,19 @@ The arBookCover App will only augment to *The Girl with the Dragon Tattoo* cover
 **Note:** The build file is too large to push to GitHub. If interested in building on your own iOS device, email me at the contact info below.
 
 Directions to build (requires XCode):
-1. decompress the iOS_Build folder
-2. double-click on the `Unity-iPhone.xcodeproj` file. This will open the file in XCode.
-3. Click the top `Unity-iPhone` directory on the left side of the screen.
-4. Navigate to `Signing and Capabilities`
-5. Click `Automatically manage signing`
-6. For team, select your developer team
-7. Plug-in your iOS device > 12.0
-8. On the top bar, select your iPhone's name. This is where the app will build to.
-9. Click the triangle icon for play on the top left of the GUI. The app will now start installing.
-10. Wait until everything is successfully built, and wallah, the app should now be on your iPhone. Enjoy!
+1. Clone this repository with:
+    > git clone https://github.com/pkrobinette/arBookCover
+2. Navigate to the arBookCover directory
+3. Decompress the iOS_Build folder and go into the folder
+4. Double-click on the `Unity-iPhone.xcodeproj` file. This will open the file in XCode.
+5. Click the top `Unity-iPhone` directory on the left side of the screen.
+6. Navigate to `Signing and Capabilities`
+7. Click `Automatically manage signing`
+8. For team, select your developer team
+9. Plug-in your iOS device > 12.0
+10. On the top bar, select your iPhone's name. This is where the app will build to.
+11. Click the triangle icon for play on the top left of the GUI. The app will now start installing.
+12. Wait until everything is successfully built, and wallah, the app should now be on your iPhone. Enjoy!
 
 ## Front Cover
 
