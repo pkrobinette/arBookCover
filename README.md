@@ -2,18 +2,35 @@
 An augmented reality book cover for *The Girl with the Dragon Tattoo* by Stieg Larson. The front cover augments a 3D dragon that is shooting fire, and the back cover toggles between misc. book information and a personal book review. 
 
 ## Description of Code
-This project was made using Unity and Vuforia for a MacOS build. Elements of note:
+This project was made using Unity and Vuforia for an iOS > 12.0 build. The Unity code is too large to push to GitHub, but if interested, I can send your way. Code elements of note:
 - **Scene objects** are located in `TheDragonTattoo > Assets > Scenes > BookScene`
 - **Animations** are located in `TheDragonTattoo > Assets > Animations`
-- The **script** used for the button element is `TheDragonTattoo > Assets > toggle`
+- The **script** used for the button event is `TheDragonTattoo > Assets > toggle`
 
 **Note:** The BookScene would be the best place to start for customizations.
 
 
 ## Code Limitations
-This code is meant for a MacOS with an intel64 chip. If using a different platform (e.g. Windows, Linus, iOS, Android, etc.) or processor (ARM), this build will not deploy.
+Device:
+This code is meant for an iOS device > 12.0. In order to initially build to an iPhone, any computer with XCode installed is also necessary.
+
+Product:
+The arBookCover App will only augment to *The Girl with the Dragon Tattoo* covers that match the versions used as image targets in this project. Any other editions or covers will not register as an image target for the App.
 
 ## How to Run
+**Note:** The build file is too large to push to GitHub. If interested in building on your own iOS device, email me at the contact info below.
+
+Directions to build (requires XCode):
+1. decompress the iOS_Build folder
+2. double-click on the `Unity-iPhone.xcodeproj` file. This will open the file in XCode.
+3. Click the top `Unity-iPhone` directory on the left side of the screen.
+4. Navigate to `Signing and Capabilities`
+5. Click `Automatically manage signing`
+6. For team, select your developer team
+7. Plug-in your iOS device > 12.0
+8. On the top bar, select your iPhone's name. This is where the app will build to.
+9. Click the triangle icon for play on the top left of the GUI. The app will now start installing.
+10. Wait until everything is successfully built, and wallah, the app should now be on your iPhone. Enjoy!
 
 ## Front Cover
 
